@@ -1,0 +1,250 @@
+/* DESACTIVAR ESTAS REGLAS PARA VER LA PÁGINA WEB DE LA MANERA ORIGINAL */
+
+ul > li {
+    list-style-image: url(../ico/favicon.ico); /*ReqC17*/
+    /* Esto es horrible, pero no me queda otra opción. */
+}
+
+body:lang(es) { /*ReqI17*/
+    background-image: url(../media/carátula.png); /*ReqS15*/
+    /* De nuevo, esto es horrible, es solo una manera rápida
+    de implementar el requisito. */
+}
+
+body:lang(en) { /*ReqI17*/
+    background-image: url(../media/carátulaInv.png); /*ReqS15*/
+}
+
+/* --------------------------------------------------------------- */
+
+
+h1,h2,h3 { /* fuente de los títulos */
+    font-family: 'Akshar', sans-serif;
+}
+
+* { /* fuente por defecto de todo el texto */
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    font-style: normal; /*ReqC6*/
+}
+
+/* ------- body ---- */
+
+/* ---- títulos ---- */
+h1 {
+    text-align: center; /*ReqC7*/
+}
+
+
+header h2 {
+    font-style: italic;
+}
+
+h1 + h2 {
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: gray; 
+}
+
+h1:lang(es) { /*ReqI17*/
+    color: black;
+    background-color: orange;
+}
+
+h1:lang(en) { /*ReqI17*/
+    color: white;
+    background-color: skyblue;
+}
+
+/* -- contenido ---- */
+body {  /*ReqS15*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+figure > * {
+    width: 100%;
+    height: 100%;
+}
+
+figure {
+    position: float;
+    float: right;
+    width: 12%;
+    height: inherit;
+    z-index: -1; /*ReqS22*/
+}
+
+div {
+    display: block;
+    width: 100%;
+    position: float; /*ReqS21*/
+    float: left;
+}
+
+.sepDiv {
+    visibility: hidden;
+}
+
+.IMPORTANTE { /*ReqC1*/
+    text-align: center; /*ReqC7*/
+    color: red;
+}
+
+p.IMPORTANTE {
+    font-family: Arial; /*ReqS2*/
+}
+
+h1.IMPORTANTE {
+    font-family: sans-serif; /*ReqS2*/
+}
+
+#TITULO {
+    font-size: 18pt; /*ReqC3*/
+}
+
+h1#TITULO2 {
+    font-size: 14pt; /*ReqS4*/
+}
+
+hr {
+    clear: both;
+}
+
+a:visited {
+    color: black; /*ReqC11*/
+}
+
+a:link {
+    color: lightskyblue; /*ReqC11*/
+}
+
+a:hover {
+    color: yellow; /*ReqC11*/
+}   
+
+ol, ul {
+    position: relative; /*ReqS18*/
+}
+
+li:first-of-type li:last-of-type { /*ReqC12*/
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    text-transform: lowercase;
+}
+
+li:first-of-type:first-letter, li:last-of-type:first-letter {
+    text-transform: uppercase; /*ReqC12*/
+}
+
+p:first-line {
+    font-weight: 600; /*ReqC14*/
+    /* El valor por defecto es 400. */
+}
+
+article:first-letter { /*ReqC13*/
+    border: red dashed 1px;
+    border-top: 0.2em;
+    border-bottom: 0.2em;
+    border-left: 0.1em;
+    border-right: 0.1em;
+}
+
+.leftFloat {
+    float: left;
+}
+
+.rightFloat {
+    float: right;
+}
+
+p strong {
+    text-decoration: underline; /*ReqS9*/
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    opacity: 0.8;
+    /*ReqC8*/
+    padding: 0.5em;
+    width: 80%;
+    z-index: 0; /*ReqS22*/  
+}
+
+figcaption {
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1em;
+    border-top-style: none;
+}
+
+code {
+    /* Código estilo C64 */
+    font-family: 'Consolas', monospace;
+    text-transform: uppercase;
+    background-color: #352879;
+    color: #c4bcee;
+    font-weight: bolder;
+}
+
+ol > li {
+    list-style-type: lower-roman; /*ReqC16*/
+}
+
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightgray;
+    border: 2px solid black;
+    position: relative; /*ReqC19*/
+    
+}
+
+td {
+    padding: 0.5em; /*ReqC20*/
+}
+
+#list {
+    position: float;
+    float: left;
+}
+
+#table {
+    position: float;
+    float: right;
+}
+
+/* ----- footer ---- */
+
+footer {
+    padding: 2.5%;
+    margin-top: 1%;
+    text-align: center;
+    color: black;
+    background-color: lightgray;
+    border: gray solid 0.1em;
+    display: block;
+    clear: both;
+}
+
+footer * {
+    background-color: transparent;
+    color: inherit;
+}

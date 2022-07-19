@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en"> <!--ReqI1-->
+    <head>
+        <title>Otros Mundos, Otros Soles (2001)</title> <!--ReqH1-->
+
+        <!-- meta -->
+        <meta charset="utf-8" name="charset"> <!--ReqH2-->
+        <meta content="somnium,discografía,información,música" name="keywords"> <!--ReqH3-->
+        <meta content="Juan Mier" name="author">
+        <meta content="Información sobre un álbum" name="description">
+
+        <!-- css --> 
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Se importan las fuentes de Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Roboto&display=swap" rel="stylesheet">
+        <!-- iconos -->
+        <link rel="apple-touch-icon" sizes="180x180" href="ico/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <!-- js -->
+        <script>
+            // Contenido para I18n.
+            locale = 'en-UK';
+            currencyFormat = new Intl.NumberFormat(locale, {style: 'currency', currency: 'GBP'}); // ReqI3
+            numberFormat = new Intl.NumberFormat(locale, {style: 'decimal'}); // ReqI2
+            dateShortFormat = new Intl.DateTimeFormat(locale, {datestyle: 'medium'}); // ReqI4
+            dateFullFormat = new Intl.DateTimeFormat(locale, {datestyle: 'full'}); // ReqI5
+        </script>
+        <script src="js/codigo.js"></script>
+        <script src="js/I18n.js"></script>
+        <script src="https://livejs.com/live.js"></script>
+    </head>
+    <body onload="/*checkLang()*/" 
+            onkeypress="actualizarCadena(event, 'cadenaIntroducida')" 
+                onmousemove="actualizarPosRatón(event, 'spanRatón')" 
+                    onfocus="changeFooterColor('footer', false, 'color')"
+                        onblur="changeFooterColor('footer', true, 'color')" 
+                            onload="updateCálculo('num1', 'op', 'num2', 'cálculo', 'resultado', 'resCurr')"
+                                onload="calcularFecha('fechatest', 'op2', 'num3', 'cálculo2', 'resultado2', 'valor')"> <!--ReqF22, ReqF23, ReqF25-->
+        <header> <!--ReqH4, ReqH19--->
+            <h1 class="IMPORTANTE" id="TITULO"> Otros Mundos, Otros Soles </h1> <!--ReqS5-->
+            <h2>SOMNIUM plane music</h2>
+        </header>
+        <hr>
+        <nav> <!--ReqH19--->
+            <h2> Links </h2> <!--ReqH15-->
+            <p>
+                <ul>
+                <li> <a href="index.html">Main page</a> </li>
+                    <li> <a href="discografía.html">Disography</a> </li>
+                    <li> <a href="contacto.html">Contact</a> </li>
+                </ul>
+            </p>
+            <p><a href="index_en.html">Ver en Español 🇪🇸</a></p>
+        </nav>  
+        
+        <hr>
+        <section> <!--ReqH19-->
+            <div id="intro"> <!--ReqH20-->
+                <figure id="carátula"> 
+                    <img src="media/carátula.png" title="Otros Mundos, Otros Soles cover" width="100%"
+                        alt="Carátula de Otros Mundos, Otros Soles"> <!--ReqH13--->
+                    <figcaption>Album cover.</figcaption>
+                </figure>
+                <p> 
+                    <span class="IMPORTANTE">Otros Mundos, Otros Soles</strong> (2001) <!--ReqH7-->
+                    fourth album of the mierense project
+                    SOMNIUM plane music. The album is a
+                    collection of different textures and sounds
+                    representing a journey through the Earth and the
+                    unknown space.
+                </p>
+                <p>
+                    It is difficult to define the style. All the songs have a very
+                    ambient, which allows the listener to freely interpret your intention
+                    and message. The group defines it as
+                    <dfn title="It is a musical genre invented by the group that combines electronic music, symphonic music and synthetic music.">electrosynthphonic</dfn>. <!--ReqH9-->
+                </p>
+                <p>
+                    The album was released independently in 2001 on CD, but
+                    Today there is not much information left about said release.
+                    Instead, the group has twice re-released the album separately.
+                    digital, one in 2015 through his Bandcamp page, and another very
+                    recently through an Argentine label named
+                    <a href="https://www.cyclicaldreams.com/">Cyclical Dreams</a>. <!--ReqH11-->
+                </p>
+            </div>
+            <hr class="sepDiv">
+            <div id="grupo"> <!--ReqH20-->
+                <figure id="paisajes"> 
+                    <img src="https://ia601401.us.archive.org/33/items/mbid-fd6b3fe3-7156-438d-9655-7c2f0fd28c01/mbid-fd6b3fe3-7156-438d-9655-7c2f0fd28c01-32234765800.jpg"
+                        title="Carátula del primer álbum" width="100%" alt="Cover for the first album"> <!--ReqH12-->
+                    <figcaption>  Paisajes analógicos, <br> their first album. </figcaption>
+                </figure>
+                <p> 
+                    <abbr title="SOMNIUM plane music">SPM</abbr> is a project
+                    founded in the early 1980s by Manuel Jesús Rodríguez,
+                    At that time he was a medical student. After
+                    release their first album on cassette, <strong>Analog Landscapes</strong> (1984, <em>Fusion D.E</em>) <!--ReqH8--->
+                    and sell close to 1000 units, the group ceased to be active until
+                    early 90s. It was then that he joined the Guzmán Concejo project,
+                    Biology student with experience in the field of music. Starting
+                    From the year 93, the group starts to include <strong>plane music</strong> in its name.
+                    Together with Angel Luis Martínez, guitarist, SOMNIUM becomes a band
+                    specialized in live performances, with big screens, abundant
+                    synthesizers, keyboards and computers on stage and a lot of experimentation in
+                    live.
+                </p>
+            </div>
+            <hr class="sepDiv">
+            <div id="creación"> <!--ReqH20-->
+                <figure id="vid">
+                    <video controls muted preload autoplay loop width="100%"> <!--ReqH17-->
+                        <source src="media/exteriorLive.mp4" type="video/mp4">
+                        <source src="media/exteriorLive.ogg" type="video/ogg">
+                        <source src="media/exteriorLive.webm" type="video/webm"> <!--ReqH18-->
+                        <p> Your browser doesn't support video playbcak. </p>
+                    </video>
+                    <figcaption>The group performing "El Directo" live.</figcaption>
+                </figure>
+                <p>
+                    All music from <abbr title="SOMNIUM plane music">SPM</abbr> is created
+                    using a wide variety of synthesizers, keyboards and other instruments,
+                    including computers from different eras. Among these computers is
+                    an Atari ST and a classic Apple MacBook G3. Of course, the group has had
+                    to program a few lines of code: <br>
+                    <code lang="basic"> <!--ReqH10-->
+                        10 FOR L=S TO S+24:POKE L,0:NEXT <br>
+                        20 POKE S+5,9:POKE S+6,0 <br>
+                        30 POKE S+24,15 <br>
+                        40 READ HF,LF,DR <br>
+                        50 IF HF=0 THEN END <br>
+                        60 POKE S+1,HF:POKE S,LF <br>
+                        70 POKE S+4,33 <br>
+                        80 FOR T=1 TO DR:NEXT <br>
+                        90 POKE S+4,32:FOR T=1 TO 50:NEXT <br>
+                        100 GOTO 40 <br>
+                    </code>
+                </p>
+                <p>
+                    In addition, the group has used its ingenuity and knowledge in the field to create
+                    their own instruments that then go on stage to give the best possible show.
+                    In his studio you can listen to renowned brands such as Stratocaster, Korg or Fender.
+                </p>
+            </div>
+            <hr class="sepDiv">
+            <article> <!--ReqH6-->
+                <h2><a href="https://www.synthsequences.com/post/somnium-plane-music-otros-mundos-otros-soles-2001-2022">Review</a></h2>
+                <h3>
+                    “A wonderful blend of vintage tones gathering electronic progressive 
+                    Rock and Cosmic Rock”.
+                </h3>
+                <p>
+                    The album was rated 4.5 stars by <em>synthsequences</em>, a
+                    publication specializing in synthetic music albums and synthesizers.
+                </p>
+            </article>
+            <hr class="sepDiv">
+            <div id="list" class="leftFloat">
+                The group has put out five albums to date:
+
+                <ol> <!--ReqH21-->
+                    <li> Paisajes analógicos, 1984 </li>
+                    <li> Sequence, 1993 </li>
+                    <li> Involution, 1994 </li>
+                    <li> Otros Mundos, Otros Soles </li>
+                    <ul> <!--ReqH22-->
+                        <li>CD-R, 2001</li>
+                        <li>Digital, 2015</li>
+                        <li>Digital (Cyclical Dreams), 2022</li>
+                    </ul>
+                    <li> ATMOSPHERE, 2020 </li>
+                </ol>
+            </div>
+            <div id="table" class="rightFloat">
+                <table> <!--ReqH23-->
+                    <caption>Albums relesed per record label</caption>
+                    <thead>
+                        <th name="th">Disco</th>
+                        <th name="th">Fusión DE</th>
+                        <th name="th">Independent</th>
+                        <th name="th">Cyclical Dreams</th>
+                    </thead>
+                    <tr><td>Paisajes</td> <td>x</td> <td></td> <td></td></tr>
+                    <tr><td>Sequence</td> <td></td> <td rowspan="2">x</td> <td></td></tr>
+                    <tr><td>Involution</td> <td></td> <td></td></tr>
+                    <tr><td>Otros Mundos</td> <td></td> <td colspan="2">x</td></tr>
+                    <tr><td>ATMOSPHERE</td> <td></td> <td>x</td> <td></td></tr>
+                </table>
+            </div>
+            <hr class="sepDiv">
+            <hr>
+            <h2>Suggestions forms</h2>
+            <form method="post" id="formSugerencias" name="sugerencias" enctype="text/plain" action="mailto:UO283319@uniovi.es" target="_blank" autocomplete="off" novalidate> <!--ReqF1, ReqF2, ReqF3, ReqF4, ReqF5-->
+                <fieldset id="info"> <legend><label for="info"> General </label></legend> <!--ReqF6-->
+                    <input type="text" id="user" placeholder="User"> <br> <!--ReqF7-->
+                    <input type="password" id="pass" placeholder="Password"> <br> <!--ReqF8-->
+                    <input type="tel" id="teléfono" placeholder="Telephone" oninput="checkTel(this.id)"> <br> <!--ReqF9--->
+                    <input type="url" id="userWeb" placeholder="Personal webpage"> <br> <!--ReqF10-->
+                    <input type="date" id="fechaNacimiento" placeholder="Birthdate"
+                        oninput="updateDateHint(this.id, 'dateHint')"> <span id="dateHint"></span><span id="checkDate"></span> <br> <!--ReqF16-->
+                    <label for="userFile">Update a photo of yourself:</label>
+                    <input type="file" id="userFile" placeholder="A photo of yourself"> <br> <!--ReqF15-->
+                    <textarea name="sugerencias" placeholder="Suggestions"></textarea> <br> <!--ReqI7-->
+                </fieldset>
+                <fieldset id="radios">
+                    <legend> <label for="radios">Region</label> </legend>
+                    <input type="radio" name="radios" id="r1" checked> Mainland Spain <br> <!--ReqF11-->
+                    <input type="radio" name="radios" id="r2"> Spain, other regions <br>
+                    <input type="radio" name="radios" id="r3"> Europe <br>
+                    <input type="radio" name="radios" id="r4"> ROW <br>
+                </fieldset>
+                <fieldset id="checkboxes">
+                    <legend> <label for="checkboxes">Band's albums bought</label> </legend>
+                    <input type="checkbox" name="checkboxes" id="c1"> Paisajes Analógicos <br> <!--ReqF12-->
+                    <input type="checkbox" name="checkboxes" id="c2" disabled title="Cannot be bought"> Sequence <br>
+                    <input type="checkbox" name="checkboxes" id="c3" disabled title="Cannot be bought"> Involution <br>
+                    <input type="checkbox" name="checkboxes" id="c4"> OMOS <br>
+                    <input type="checkbox" name="checkboxes" id="c5" disabled title="No physical editions exist"> ATMOSPHERE <br>
+                </fieldset>
+                <fieldset id="desplegable"> <!--ReqF13-->
+                    <legend> <label for="desplegable">¿What is your favourite musical genre?</label> </legend>
+                    <select name="opciones" id="opciones"> <optgroup label="Popular genres">
+                        <option value="opcion1">Hip-hop</option>
+                        <option value="opcion2">Pop</option>
+                        <option value="opcion3">Rock</option>
+                    </optgroup> <optgroup label="Alternative genres">
+                        <option value="">Classic</option>
+                        <option value="">Electronic</option>
+                        <option value="">Ambiental</option>
+                    </optgroup> </select>
+                </fieldset>
+                <fieldset id="colorFieldset"> <!--ReqF13-->
+                    <legend> <label for="color">Color chooser</label> </legend>
+                    <label for="color">Pick your favourite color: </label>
+                    <input type="color" id="color" name="color" value="#ff0000" onchange="actualizarColorTabla(this.id, 'th')"> <br> <!--ReqF13-->
+                </fieldset>
+                <br>
+                <input type="button" value="Send" id="formSubmit" onclick="comprobar()">
+                <input type="reset" id="formReset"> <!--ReqF17-->
+            </form>
+        </section>
+        <hr>
+        <div id="pruebas" onclick="cambiarBandera(event, 'banderas')"> <!--ReqF27-->
+            <h2>Testing zone</h2>
+            <h3>Events</h3>
+            <span>String: </span><span id="cadenaIntroducida"></span> <input type="button" value="Reset" onclick="limpiarCadena('cadenaIntroducida')"> <br>
+            <span id="spanRatón"></span> <br>
+            <span>Click to change the flag: </span><span id="banderas">🇪🇸</span> <br>
+            <br>
+            <button id="btn1" onclick="coloresBotones('btn1', 'btn2')">Update(1)</button> <button id="btn2" onclick="coloresBotones('btn2', 'btn1')">Update(2)</button> <br>
+            <h3>Formatters (i18n)</h3>
+            <input type="number" name="numtest" id="num1" onchange="updateCálculo('num1', 'op', 'num2', 'cálculo', 'resultado', 'resCurr')"> <!--ReqI6-->
+            <select name="operador" id="op" onchange="updateCálculo('num1', 'op', 'num2', 'cálculo', 'resultado', 'resCurr')">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>
+            <input type="number" name="numtest" id="num2" onchange="updateCálculo('num1', 'op', 'num2', 'cálculo', 'resultado', 'resCurr')"> <br> <!--ReqI6-->
+            <span id="cálculo"></span> = 
+            <strong><span id="resultado"></span></strong> <br> <span id="resCurr"></span> <br>
+            <input type="date" name="fechatest" id="fechatest" onchange="calcularFecha('fechatest', 'op2', 'num3', 'cálculo2', 'resultado2', 'valor')">
+            <select name="operador" id="op2" onchange="calcularFecha('fechatest', 'op2', 'num3', 'cálculo2', 'resultado2', 'valor')">
+                <option value="+">+</option>
+                <option value="-">-</option>
+            </select>
+            <input type="number" name="numtest2" id="num3" onchange="calcularFecha('fechatest', 'op2', 'num3', 'cálculo2', 'resultado2', 'valor')"> 
+            <select name="valorFecha" id="valor" onchange="calcularFecha('fechatest', 'op2', 'num3', 'cálculo2', 'resultado2', 'valor')">
+                <option value="días" selected>days</option>
+                <option value="meses">months</option>
+                <option value="años">years</option>
+            </select><br>
+            <span id="cálculo2"></span> =
+            <strong><span id="resultado2"></span></strong> <br>
+        </div>
+        <hr>
+        <footer id="footer"> <!--ReqH5--->
+            (c) <a id="mail" href="mailto:UO283319@uniovi.es?subject=OMOS%20web%20en" target="_blank">Juan Mier</a> <!--ReqH14-->
+            <time datetime="2022-05-06">May 6th, 2022</time>, all rights reserved. 
+        </footer>
+    </body>
+</html>
