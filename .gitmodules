@@ -5,3 +5,6 @@
 	path = PL/java/Defensa/Examen/SumaTres
 	url = https://github.com/miermontoto/SumaTres
 	branch = defensaCPM
+[submodule "PL/java/SumaTres"]
+	path = PL/java/SumaTres
+	url = https://github.com/miermontoto/SumaTres
