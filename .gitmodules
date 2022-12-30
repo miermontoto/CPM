@@ -1,6 +1,3 @@
-[submodule "PL/java/SumaTres"]
-	path = PL/java/SumaTres
-	url = https://github.com/miermontoto/SumaTres
 [submodule "PL/web/webProject"]
 	path = PL/web/webProject
 	url = https://github.com/miermontoto/webProject
