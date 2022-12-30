@@ -1,3 +1,7 @@
 [submodule "PL/web/webProject"]
 	path = PL/web/webProject
 	url = https://github.com/miermontoto/webProject
+[submodule "PL/java/Defensa/Examen/SumaTres"]
+	path = PL/java/Defensa/Examen/SumaTres
+	url = https://github.com/miermontoto/SumaTres
+	branch = defensaCPM
