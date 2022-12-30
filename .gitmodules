@@ -1,5 +1,5 @@
-[submodule "PL/NetBeansProjects/SumaTres"]
-	path = PL/NetBeansProjects/SumaTres
+[submodule "PL/java/SumaTres"]
+	path = PL/java/SumaTres
 	url = https://github.com/miermontoto/SumaTres
 [submodule "PL/web/webProject"]
 	path = PL/web/webProject
